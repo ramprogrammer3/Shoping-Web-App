@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoplane App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-menu">
+            <div class="left-top-menu">
+                <div id="logo">
+                    <a href="./main.html">
+                        <span>shop</span>lane
+                    </a>
+                </div>
+                <a href="./main.html#clothing-section">Clothing</a>
+                <a href="./main.html#accessory-section">Accessories</a>
+            </div>
+            <div class="search-wrapper">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="search" name="search" id="search-box" placeholder="Search for clothing and accessories">
+            </div>
+            <div>
+                <div class="right-menu">
+                    <div id="cart-wrapper">
+                        <p id="cart-count"><span id="cart-size">0</span></p>
+                        <a href="./checkout.html" id="go-to-check-out-page">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="checkout-container">
+        <h1 class="checkouth1">Checkout</h1>
+        <p>Total Items: <span id="items"></span></p>
+            <div class="checkout">
+                <div id="one">
+                   
+                </div>
+                <div class="checkout-right">
+                    <h2>Total Amount</h2>
+                    <p>Amount: Rs <span id="total-amount"></span></p>
+                    <button id="place-order-btn">Place Order</button>
+                </div>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <section class="footer-section">
+            <div class="footer-div">
+                <h2>Online store</h2>
+                <a href="#">men clothing</a>
+                <a href="#">women clothing</a>
+                <a href="#">men accessories</a>
+                <a href="#">women accessories</a>
+            </div>
+            <div class="footer-div">
+                <h2>Helpful Links</h2>
+                <a href="#">home</a>
+                <a href="#">About</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="footer-div">
+                <h2>partners</h2>
+                <a href="#">Zara</a>
+                <a href="#">pantaloons</a>
+                <a href="#">levis</a>
+                <a href="#">ucb</a>
+                <a href="#">+ many more</a>
+            </div>
+            <div class="footer-div">
+                <h2>Address</h2>
+                <p>simtamarhi</p>
+                <p>riga road</p>
+                <p>pin-843302</p>
+                <p>bihar India</p>
+            </div>
+        </section>
+        <p class="designer">Design and Develop by ram kumar || Mar 2022</p>
+    </footer>
+    
+    <script src="./checkout.js"></script>
+</body>
+</html>
